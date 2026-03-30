@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+VENV/
+
+# AWS CDK
+cdk.out/
+*.d.ts
+*.js
+!test/*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+.windows-build-tools
+
+# Logs
+*.log
+logs/
+*.pot
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# AWS
+credentials.json
+credentials.csv
